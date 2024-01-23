@@ -18,6 +18,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
     <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
 
     <!-- *custom tailwind colour palletes -->
 
@@ -211,7 +212,7 @@
       <!-- Progress bar section -->
 
       <section class="progress-section md:my-16 my-4">
-        <hr class="border-dashed" />
+        <hr class="border-dashed my-10" />
         <h1 class="text-3xl font-semibold text-center mt-8 mb-4">
           Professional Hockeys Club
         </h1>
@@ -223,13 +224,15 @@
 
         <div
           id="progress-cards"
-          class="mt-8 grid grid-cols-1 md:grid-cols-4 justify-center text-center gap-4 items-center ">
+          class="mt-8 grid grid-cols-1 md:grid-cols-4 justify-center text-center gap-4 items-center">
           <div class="p-5">
             <div
-              class="radial-progress text-[#FF4240]"
+              class="radial-progress text-[#FF4240] rotate-[120deg]"
               style="--value: 87"
               role="progressbar">
-              <span class="text-gray-900 font-semibold">87%</span>
+              <span class="text-gray-900 font-semibold -rotate-[120deg]"
+                >87%</span
+              >
             </div>
             <h2 class="text-xl my-4">Prayer Facility</h2>
             <p class="text-txt-normal">
@@ -240,10 +243,12 @@
 
           <div class="p-5">
             <div
-              class="radial-progress text-[#49D293]"
-              style="--value: 95"
+              class="radial-progress text-[#49D293] rotate-[120deg]"
+              style="--value: 90"
               role="progressbar">
-              <span class="text-gray-900 font-semibold">95%</span>
+              <span class="text-gray-900 font-semibold -rotate-[120deg]"
+                >90%</span
+              >
             </div>
             <h2 class="text-xl my-4">Experienced Coach</h2>
             <p class="text-txt-normal">
@@ -253,10 +258,12 @@
 
           <div class="p-5">
             <div
-              class="radial-progress text-[#FFB546]"
+              class="radial-progress text-[#FFB546] rotate-[120deg]"
               style="--value: 79"
               role="progressbar">
-              <span class="text-gray-900 font-semibold">79%</span>
+              <span class="text-gray-900 font-semibold -rotate-[120deg]"
+                >79%</span
+              >
             </div>
             <h2 class="text-xl my-4">Senior Player</h2>
             <p class="text-txt-normal">
@@ -266,10 +273,12 @@
 
           <div class="p-5">
             <div
-              class="radial-progress text-[#4C8DF1]"
-              style="--value: 45"
+              class="radial-progress text-[#4C8DF1] rotate-[120deg]"
+              style="--value: 55"
               role="progressbar">
-              <span class="text-gray-900 font-semibold">45%</span>
+              <span class="text-gray-900 font-semibold -rotate-[120deg]"
+                >55%</span
+              >
             </div>
             <h2 class="text-xl my-4">Training Ground</h2>
             <p class="text-txt-normal">
@@ -277,6 +286,92 @@
             </p>
           </div>
         </div>
+      </section>
+
+      <!-- program section -->
+
+      <section id="program-section">
+        <hr class="border-dashed my-10" />
+        <h1 class="text-3xl font-semibold text-center mt-8 mb-4">
+          Program Sections
+        </h1>
+        <p class="text-center text-txt-normal">
+          Frozen Aspirations: Experience the Hokyes Program Section's Cool
+          Journey
+        </p>
+        <hr class="border-dashed mt-8 mb-8" />
+
+        <div class="top1 grid md:grid-cols-2 gap-8 my-7">
+          <div class="bg-card rounded-lg relative">
+            <div class="overlay-card h-full w-full rounded-lg">
+              <div
+                class="info-card w-[70%] text-white space-y-4 absolute bottom-10 left-10">
+                <h1 class="text-2xl font-extrabold">Junior Program</h1>
+                <p class="text-gray-300">
+                  Empowering the next generation of innovators and leaders
+                  through our Junior Program - where young minds embark on a
+                  journey of discovery, creativity, and growth.
+                </p>
+                <button class="btn bg-main-ancent border-none text-white">
+                  Register Now!
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-card bg-2 rounded-lg relative">
+            <div class="overlay-card h-full w-full rounded-lg">
+              <div
+                class="info-card w-[70%] text-white space-y-4 absolute bottom-10 left-10">
+                <h1 class="text-2xl font-extrabold">Teenager Program</h1>
+                <p class="text-gray-300">
+                  Unlocking the boundless potential of adolescence with our
+                  Teenager Program a transformative journey of self-discovery,
+                  skill development, and empowerment.
+                </p>
+                <button class="btn bg-main-ancent border-none text-white">
+                  Register Now!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="second h-[400px] rounded-lg relative mb-10">
+          <div class="overlay-sec h-full w-full rounded-lg">
+            <div
+              class="info-card md:w-[50%] text-white space-y-4 absolute bottom-10 left-10">
+              <h1 class="text-2xl font-extrabold">Professional Program</h1>
+              <p class="text-gray-300">
+                Elevate your career and unleash your full professional potential
+                with our meticulously crafted Professional Program. Designed for
+                ambitious individuals seeking to deepen their expertise, expand
+                their networks, and navigate the ever-evolving landscape of
+                their industry.
+              </p>
+              <button class="btn bg-main-ancent border-none text-white">
+                Register Now!
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- our new products -->
+
+      <section class="products-section my-20">
+        <hr class="border-dashed my-10" />
+        <h1 class="text-3xl font-semibold text-center mt-8 mb-4">
+          Our New Products
+        </h1>
+        <p class="text-center text-txt-normal w-[60%] mx-auto">
+          Introducing our latest innovations - a collection of meticulously
+          crafted and thoughtfully designed new products that redefine
+          excellence in Hokyes.
+        </p>
+        <hr class="border-dashed mt-10" />
+
+        <!-- products incompleted section -->
+
       </section>
     </main>
     <footer></footer>
