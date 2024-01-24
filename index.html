@@ -212,7 +212,7 @@
       </section>
     </header>
     <main class="container mx-auto p-4 md:p-0">
-      <!-- Progress bar section -->
+      <!-- *Progress bar section -->
 
       <section class="progress-section md:my-16 my-4">
         <hr class="border-dashed my-10" />
@@ -291,7 +291,7 @@
         </div>
       </section>
 
-      <!-- program section -->
+      <!-- *program section -->
 
       <section id="program-section">
         <hr class="border-dashed my-10" />
@@ -359,7 +359,7 @@
         </div>
       </section>
 
-      <!-- our new products -->
+      <!-- *our new products -->
 
       <section class="products-section my-20">
         <hr class="border-dashed my-10" />
@@ -373,7 +373,7 @@
         </p>
         <hr class="border-dashed mt-10" />
 
-        <!-- products section -->
+        <!-- *products section -->
 
         <div class="products-card my-10 grid grid-cols-1 md:grid-cols-2 gap-7">
           <!-- card 1 -->
@@ -621,7 +621,7 @@
         </div>
       </section>
 
-      <!-- FAQ section -->
+      <!-- *FAQ section -->
 
       <section class="faq-section my-10">
         <hr class="border-dashed my-10" />
@@ -754,7 +754,7 @@
         <div></div>
       </section>
 
-      <!-- contact form -->
+      <!-- *contact form -->
 
       <section class="contact">
         <hr class="border-dashed my-10" />
@@ -767,54 +767,101 @@
         </p>
         <hr class="border-dashed mt-10" />
 
-        <div class="main-contact flex justify-between items-center">
-          <div class="contact-info-icon w-[30%] border-2 p-5">
+        <div class="main-contact md:flex justify-between gap-8 my-14">
+          <div
+            class="contact-info-icon w-full md:w-[40%] border p-5 rounded-xl mb-10 md:mb-0">
             <!-- card 1-->
 
-            <div class="contact-card1 text-center border p-10 bg-green-50">
-              <img src="./Images/Group 1171275317.png" alt="" class="mx-auto" />
-              <p>Phone number</p>
-              <h1>+88017000000</h1>
+            <div
+              class="contact-card1 text-start p-8 bg-green-50 space-y-2 rounded-xl mb-5">
+              <img src="./Images/Group 1171275317.png" alt="" class="" />
+              <p class="text-txt-normal mt-4">Phone number:</p>
+              <h1 class="font-bold">+88017000000</h1>
             </div>
 
-            <div class="contact-card1">
-              <img src="./Images/Group 1171275317.png" alt="" />
-              <p>Phone number</p>
-              <h1>+88017000000</h1>
+            <div
+              class="contact-card1 text-start p-8 bg-yellow-50 space-y-2 rounded-xl mb-5">
+              <img src="./Images/Group 1171275318.png" alt="" class="" />
+              <p class="text-txt-normal mt-4">Email:</p>
+              <h1 class="font-bold">hockeyofficial@gmail.com</h1>
             </div>
 
-            <div class="contact-card1">
-              <img src="./Images/Group 1171275317.png" alt="" />
-              <p>Phone number</p>
-              <h1>+88017000000</h1>
-            </div>
-          </div>
-
-          <div class="contact-input">
-            <div class="con-top grid md:grid-cols-2">
-              <div>
-                <h1>Your name :</h1>
-                <input type="text" placeholder="enter your name" />
-              </div>
-
-              <div>
-                <h1>Your name :</h1>
-                <input type="text" placeholder="enter your name" />
-              </div>
-
-              <div>
-                <h1>Your name :</h1>
-                <input type="text" placeholder="enter your name" />
-              </div>
-
-              <div>
-                <h1>Your name :</h1>
-                <input type="text" placeholder="enter your name" />
-              </div>
-              
+            <div
+              class="contact-card1 text-start p-8 bg-blue-50 space-y-2 rounded-xl mb-5">
+              <img src="./Images/Group 1171275321.png" alt="" class="" />
+              <p class="text-txt-normal mt-4">Location:</p>
+              <h1 class="font-bold">Uposhor,sylhet Block-D house-#21</h1>
             </div>
           </div>
+
+          <form action="">
+            <div class="grid grid-cols-2 gap-5">
+              <div class="flex flex-col col-span-2 md:col-span-1">
+                <label for="" class="font-semibold text-lg mb-2"
+                  >Your Name:</label
+                >
+                <input
+                  type="text"
+                  class="pr-28 py-4 bg-gray-100 rounded-lg"
+                  placeholder="  Enter your name" />
+              </div>
+
+              <div class="flex flex-col col-span-2 md:col-span-1">
+                <label for="" class="font-semibold text-lg mb-2"
+                  >Your E-mail:</label
+                >
+                <input
+                  type="email"
+                  class="pr-28 py-4 lg:pr-60 bg-gray-100 rounded-lg"
+                  placeholder="  Enter your email" />
+              </div>
+
+              <div class="flex flex-col col-span-2 md:col-span-1">
+                <label for="" class="font-semibold text-lg mb-2"
+                  >Subject:</label
+                >
+                <input
+                  type="text"
+                  class="pr-28 py-4 bg-gray-100 rounded-lg"
+                  placeholder="  Enter your subject" />
+              </div>
+
+              <div class="flex flex-col col-span-2 md:col-span-1">
+                <label for="" class="font-semibold text-lg mb-2"
+                  >Phone Number:</label
+                >
+                <input
+                  type="number"
+                  class="pr-28 py-4 bg-gray-100 rounded-lg"
+                  placeholder="  Phone number" />
+              </div>
+
+              <div class="col-span-2">
+                <div class="flex flex-col">
+                  <label for="" class="font-semibold text-lg mb-2"
+                    >Message</label
+                  >
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="13"
+                    placeholder=" Write your through.."
+                    class="bg-gray-100 rounded-lg p-2 h-[200px] md:h-full"></textarea>
+                </div>
+              </div>
+
+              <button class="btn bg-main-ancent col-span-2 text-white">
+                Send Message
+              </button>
+            </div>
+          </form>
         </div>
+
+        <div>
+          <h1>Social Media</h1>
+        </div>
+
       </section>
     </main>
     <footer></footer>
