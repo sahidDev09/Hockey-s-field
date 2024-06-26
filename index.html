@@ -50,7 +50,7 @@
       }
     </style>
   </head>
-  <body>
+  <body class=" container mx-auto">
     <header class="container mx-auto p-4 md:p-0">
       <!-- *nav bar /bonus part -->
       <nav>
@@ -228,15 +228,16 @@
         <div
           id="progress-cards"
           class="mt-8 grid grid-cols-1 md:grid-cols-4 justify-center text-center gap-4 items-center">
-          <div class="p-5">
+          <div class="p-5 relative">
             <div
-              class="radial-progress text-[#FF4240] rotate-[120deg]"
+              class="radial-progress text-[#FF4240] rotate-[120deg] relative"
               style="--value: 87"
               role="progressbar">
               <span class="text-gray-900 font-semibold -rotate-[120deg]"
                 >87%</span
               >
             </div>
+
             <h2 class="text-xl my-4">Prayer Facility</h2>
             <p class="text-txt-normal">
               Our prayer facility is a sacred space for reflection and
@@ -253,6 +254,7 @@
                 >90%</span
               >
             </div>
+
             <h2 class="text-xl my-4">Experienced Coach</h2>
             <p class="text-txt-normal">
               Elevate your game with our experienced coach leading the way.
@@ -636,7 +638,7 @@
         <hr class="border-dashed mt-10" />
 
         <div class="hero border rounded-2xl my-20">
-          <div class="hero-content flex-col lg:flex-row lg:gap-10">
+          <div class="hero-content grid md:grid-cols-2 md:gap-10">
             <img
               src="./Images/11.png"
               class="lg:max-w-full w-full h-[250px] md:h-full" />
